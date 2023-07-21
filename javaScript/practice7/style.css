@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    align-items: center;
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+ul li{
+    font-size: 18px;
+    list-style: none;
+    padding: 8px 20px;
+}
+.home-btn{
+    margin-bottom: 5px;
+    color: purple;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul :nth-last-child(-n+4):hover{
+    color: gray;
+    cursor: pointer;
+}
+ul :nth-child(1):hover{
+    color: pink;
+    cursor: pointer;
+    font-size: 22px;
+}
