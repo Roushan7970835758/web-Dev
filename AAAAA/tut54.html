@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaction:- Alert promp confirm</title>
+    <style>
+        .container p{
+            padding: 30px;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>This is paragraph-2</p>
+        <p>This is paragraph-3</p>
+        <p>This is paragraph-4</p>
+        <p>This is paragraph-1</p>
+    </div>
+
+    <script>
+        alert("This is a massage");
+
+        prompt("What is your name?","");
+
+        let deletePost = confirm("Do you realy want to delete this post ??");
+        if(deletePost){
+            console.log("Your post has been deleted succesfully. ");
+        }
+        else{
+
+            console.log("post not deelted ");
+        }
+        
+
+
+        
+        
+        
+    </script>
+</body>
+</html>

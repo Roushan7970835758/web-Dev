@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors</title>
+    <style>
+        h1{
+            background-color: black;
+            font-weight: bold;
+            color: powderblue;
+            text-align: center;
+        }
+        div +p{
+            background-color: blueviolet;
+            color: powderblue;
+            font-weight: bold;
+        }
+        div ul{
+            font-size: 44px;
+        }
+        div ul li{
+            background-color: black;
+            color: powderblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is more on selector</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <p>inside ul outside li</p>
+                <li class="item">inside li</li>
+                
+            </ul>
+            <p>outside ul inside div</p>
+        </div>
+        <p>ouside row div inside container</p>
+    </div>
+    <p>outside container</p>
+    
+</body>
+</html>

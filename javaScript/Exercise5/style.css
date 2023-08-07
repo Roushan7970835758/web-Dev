@@ -1,0 +1,15 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: rgb(96, 245, 96);
+    text-shadow:10px 5px 5px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}

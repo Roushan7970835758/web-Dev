@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.container1 {
+    
+    
+    height: 5000px;
+    width: 5000px;
+    background-color: #F79BD3;
+    z-index: -1;
+
+}
+
+.container2 {
+    position: absolute;
+    height: 500px;
+    width: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 100px;
+    left: 100px;
+
+    background-color: #EA1179;
+    color: #9F0D7F;
+    z-index: 0;
+}
+
+.container3 {
+    
+
+    height: 125px;
+    width: 125px;
+    background-color: #9F0D7F;
+    color:#241468 ;
+    z-index: 1;
+}

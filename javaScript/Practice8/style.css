@@ -1,0 +1,30 @@
+*{
+    width: 100%;
+    height: 100%;
+}
+.yellow{
+    background: yellow;
+}
+.red{
+    background: red;
+}
+.blue{
+    background-color: blue;
+}
+span{
+    margin:40% 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.bulb-container{
+   display: flex;
+   flex-direction: column;
+    height: 300px;
+    width: 300px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 100%;
+   
+}

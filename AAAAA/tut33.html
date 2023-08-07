@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after Psudo Selector</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            
+        }
+        header::before{
+            
+            background:url("https://picsum.photos/1080") no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+            
+        }
+
+        .navigation {
+            font-size: 20px;
+            display: flex;
+        }
+        .navigation li:hover{
+            color: aqua;
+            cursor: pointer;
+            text-decoration:underline;
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+
+        section {
+            height: 500px;
+            margin: 3px 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            justify-content: center;
+        }
+        section:hover{
+            cursor:zoom-in;
+        }
+
+        section::after {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            content: "This is the content";
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contect us</li>
+            </ul>
+        </nav>
+    </header>
+        <section>
+            <h1>Welcome to coding world</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab id ea vel eos porro iusto, fuga harum nemo
+                voluptatibus dolorum a facere tempora sint illum itaque neque dignissimos reiciendis sit earum soluta?
+                Iusto.</p>
+        </section>
+       
+</body>
+
+</html>
